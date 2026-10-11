@@ -37,4 +37,4 @@
 - `assets/sciencebuddy-overview.svg`：https://raw.githubusercontent.com/Gen-Verse/ScienceBuddy/main/assets/sciencebuddy-overview.svg
 - `assets/past-bench-overview.png`：https://raw.githubusercontent.com/Gen-Verse/PAST-Bench/main/assets/past_bench_overview.png
 
-头像 `assets/avatar.jpg` 使用本人提供的插画原图。未添加未经本人提供的教育经历、导师、奖项或 CV。
+头像和浏览器标签页图标均使用本人提供的插画原图 `assets/avatar.jpg`。未添加未经本人提供的教育经历、导师、奖项或 CV。
