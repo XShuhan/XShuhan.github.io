@@ -2,7 +2,7 @@
 
 地址：https://xshuhan.github.io/
 
-纯 HTML/CSS 学术主页，无构建步骤。编辑 `index.html` 更新身份、简介、论文和项目；编辑 `style.css` 调整样式。
+纯 HTML/CSS 学术主页，无构建步骤。编辑 `index.html` 更新身份、简介和论文；编辑 `style.css` 调整样式。
 
 ## 本地预览
 
@@ -14,7 +14,7 @@
 
 ## 设计与选型
 
-- 推荐本主页的轻量静态实现：目前内容以简介、两篇论文和公开项目为主，修改直接，无需安装依赖。
+- 推荐本主页的轻量静态实现：目前内容以简介和两篇论文为主，修改直接，无需安装依赖。
 - [Jon Barron](https://jonbarron.info/)：参考其简介、联系方式、论文缩略图与论文链接的内容组织。本页从头实现，并未复制其源代码。
 - [Academic Pages](https://academicpages.github.io/)：更适合需要教学、报告等多页面分类的主页。
 - [al-folio](https://alshedivat.github.io/al-folio/)：更适合同时维护博客、丰富履历和多个项目的主页。
@@ -31,7 +31,6 @@
 - ScienceBuddy 代码：https://github.com/Gen-Verse/ScienceBuddy
 - PAST-Bench：https://arxiv.org/abs/2608.04003
 - PAST-Bench 代码：https://github.com/Gen-Verse/PAST-Bench
-- Code Vibe Reading：https://github.com/XShuhan/Code-vibe-reading
 
 两篇论文目前按 arXiv 预印本展示，不填写未确认的录用信息。图片来自上述公开项目的原始素材：
 
