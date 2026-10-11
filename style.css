@@ -19,9 +19,7 @@ h1{font:500 52px/1.15 Georgia,"Times New Roman",serif;letter-spacing:-1.8px;marg
 .bio{font-size:16px;line-height:1.85;margin:0 0 22px}
 .profile-links{display:flex;flex-wrap:wrap;gap:24px;font-size:14px;font-weight:550}
 .profile-links span{font-size:12px;margin-left:3px}
-.identity{height:210px;background:#eaf1ed;border-radius:50% 50% 5px 5px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#47665a;position:relative;border:1px solid #dbe5df}
-.identity span{font:italic 65px/1 Georgia,serif;letter-spacing:-6px;padding-right:7px}
-.identity small{font-size:8px;letter-spacing:3px;margin-top:24px}
+.identity{display:block;width:190px;height:190px;border-radius:8px}
 h2{font:500 27px/1.3 Georgia,"Times New Roman",serif;letter-spacing:-.45px;margin:0}
 .news{display:grid;grid-template-columns:150px 1fr;padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .news h2{font-size:22px}
@@ -53,5 +51,5 @@ footer{display:flex;justify-content:space-between;padding:20px 0 30px;border-top
 footer a{color:var(--muted)}
 .skip-link{position:absolute;top:-100px;left:20px;background:white;padding:10px;z-index:2}
 .skip-link:focus{top:10px}
-@media(max-width:700px){.site-header,main,footer{width:calc(100% - 36px)}.site-header{padding:20px 0}nav{gap:17px;font-size:12px}.intro{grid-template-columns:1fr;gap:0;padding:43px 0 35px}.identity{display:none}h1{font-size:43px}.bio{font-size:15px}.news{grid-template-columns:1fr;gap:15px}.news li{gap:12px;font-size:13px}.news time{flex-basis:67px}.research{padding-top:35px}.paper{grid-template-columns:1fr;gap:18px}.paper-image{max-width:100%;min-height:0;padding:18px}.paper-image img{max-height:220px;object-fit:contain}.contact{flex-direction:column;align-items:flex-start;gap:20px}.section-heading h2{font-size:25px}}
+@media(max-width:700px){.site-header,main,footer{width:calc(100% - 36px)}.site-header{padding:20px 0}nav{gap:17px;font-size:12px}.intro{grid-template-columns:1fr;gap:0;padding:43px 0 35px}.identity{width:120px;height:120px;grid-row:1;margin-bottom:24px}h1{font-size:43px}.bio{font-size:15px}.news{grid-template-columns:1fr;gap:15px}.news li{gap:12px;font-size:13px}.news time{flex-basis:67px}.research{padding-top:35px}.paper{grid-template-columns:1fr;gap:18px}.paper-image{max-width:100%;min-height:0;padding:18px}.paper-image img{max-height:220px;object-fit:contain}.contact{flex-direction:column;align-items:flex-start;gap:20px}.section-heading h2{font-size:25px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
