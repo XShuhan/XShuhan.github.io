@@ -14,7 +14,7 @@
 
 ## 设计与选型
 
-- 推荐本主页的轻量静态实现：目前内容以简介和两篇论文为主，修改直接，无需安装依赖。
+- 推荐本主页的轻量静态实现：目前内容以简介和论文为主，修改直接，无需安装依赖。
 - [Jon Barron](https://jonbarron.info/)：参考其简介、联系方式、论文缩略图与论文链接的内容组织。本页从头实现，并未复制其源代码。
 - [Academic Pages](https://academicpages.github.io/)：更适合需要教学、报告等多页面分类的主页。
 - [al-folio](https://alshedivat.github.io/al-folio/)：更适合同时维护博客、丰富履历和多个项目的主页。
@@ -32,9 +32,16 @@
 - PAST-Bench：https://arxiv.org/abs/2608.04003
 - PAST-Bench 代码：https://github.com/Gen-Verse/PAST-Bench
 
-两篇论文目前按 arXiv 预印本展示，不填写未确认的录用信息。图片来自上述公开项目的原始素材：
+论文目前按 arXiv 预印本展示，不填写未确认的录用信息。图片来自上述公开项目的原始素材：
 
 - `assets/sciencebuddy-overview.svg`：https://raw.githubusercontent.com/Gen-Verse/ScienceBuddy/main/assets/sciencebuddy-overview.svg
 - `assets/past-bench-overview.png`：https://raw.githubusercontent.com/Gen-Verse/PAST-Bench/main/assets/past_bench_overview.png
+
+2026-10-24 补充 RSI-Anything，标题、作者顺序和发布日期按 arXiv 核实：
+
+- 论文：https://arxiv.org/abs/2610.13912
+- 代码：https://github.com/Gen-Verse/RSI-Anything
+- 模型与数据：https://huggingface.co/datasets/Gen-Verse/RSI-Anything
+- `assets/rsi-anything-overview.png`：https://raw.githubusercontent.com/Gen-Verse/RSI-Anything/main/docs/media/figure1-overview.png
 
 头像和浏览器标签页图标均使用本人提供的插画原图 `assets/avatar.jpg`。未添加未经本人提供的教育经历、导师、奖项或 CV。
