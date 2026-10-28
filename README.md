@@ -15,7 +15,7 @@
 ## 设计与选型
 
 - 推荐本主页的轻量静态实现：目前内容以简介和论文为主，修改直接，无需安装依赖。
-- 视觉：Instrument Serif（标题）+ Inter（正文），暖白底 / 夜空深色两套配色（跟随系统 `prefers-color-scheme` 自动切换），金色强调色取自头像插画的光。所有颜色在 `style.css` 顶部 `:root` 里定义。
+- 视觉：全站 Inter（标题用 600 字重 + 收紧字距），暖白底 / 夜空深色两套配色（跟随系统 `prefers-color-scheme` 自动切换），金色强调色取自头像插画的光。所有颜色在 `style.css` 顶部 `:root` 里定义。
 - [Jon Barron](https://jonbarron.info/)：参考其简介、联系方式、论文缩略图与论文链接的内容组织。本页从头实现，并未复制其源代码。
 - [Academic Pages](https://academicpages.github.io/)：更适合需要教学、报告等多页面分类的主页。
 - [al-folio](https://alshedivat.github.io/al-folio/)：更适合同时维护博客、丰富履历和多个项目的主页。
