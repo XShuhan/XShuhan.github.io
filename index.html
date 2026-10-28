@@ -10,87 +10,108 @@
   <meta property="og:title" content="Shuhan Xue">
   <meta property="og:description" content="Self-improving agents · Agent evaluation · AI for science">
   <meta property="og:url" content="https://xshuhan.github.io/">
+  <meta property="og:image" content="https://xshuhan.github.io/assets/avatar.jpg">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="assets/avatar.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="wordmark" href="#about">Shuhan Xue<span class="name-dot">.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#research">Research</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#about">Shuhan Xue<span class="name-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main id="main">
+  <main id="main" class="wrap">
     <section class="intro" id="about" aria-labelledby="name">
-      <div>
-        <p class="eyebrow">PERSONAL / RESEARCH</p>
+      <div class="intro-text">
+        <p class="kicker">Self-improving agents · Agent evaluation · AI for science</p>
         <h1 id="name">Shuhan Xue</h1>
-        <p class="affiliation">LLM Research Algorithm Intern · <a href="https://phai-labs.com/">PhAI Labs</a><br>PKU Intern · <a href="https://english.pku.edu.cn/">Peking University</a></p>
+        <ul class="roles">
+          <li>LLM Research Algorithm Intern<span class="sep" aria-hidden="true">·</span><a href="https://phai-labs.com/">PhAI Labs</a></li>
+          <li>PKU Intern<span class="sep" aria-hidden="true">·</span><a href="https://english.pku.edu.cn/">Peking University</a></li>
+        </ul>
         <p class="bio">I work on <strong>self-improving AI agents</strong> and <strong>AI for science</strong>. My research explores how agents can learn from experience, how to evaluate that improvement, and how to build agents that collaborate with researchers on scientific tasks.</p>
         <div class="profile-links" aria-label="Profile links">
-          <a href="https://scholar.google.com/citations?user=qpQ7JBQAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/XShuhan">GitHub <span aria-hidden="true">↗</span></a>
-          <a href="mailto:xueshuhanxuexi@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          <a class="pill" href="https://scholar.google.com/citations?user=qpQ7JBQAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a class="pill" href="https://github.com/XShuhan">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="pill" href="mailto:xueshuhanxuexi@gmail.com">Email <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <img class="identity" src="assets/avatar.jpg" alt="Shuhan Xue's profile illustration" width="190" height="190">
+      <figure class="portrait"><img src="assets/avatar.jpg" alt="Shuhan Xue's profile illustration" width="960" height="960"></figure>
     </section>
 
-    <section class="news" aria-labelledby="news-heading">
-      <h2 id="news-heading">News</h2>
-      <ul>
-        <li><time datetime="2026-10-09">Oct 2026</time><span>Our <a href="https://arxiv.org/abs/2610.13912">RSI-Anything</a> preprint is available on arXiv.</span></li>
-        <li><time datetime="2026-09-15">Sep 2026</time><span>Our <a href="https://arxiv.org/abs/2609.17523">ScienceBuddy</a> preprint is available on arXiv.</span></li>
-        <li><time datetime="2026-08-04">Aug 2026</time><span>Our <a href="https://arxiv.org/abs/2608.04003">PAST-Bench</a> preprint is available on arXiv.</span></li>
-      </ul>
+    <section class="block news" id="news" aria-labelledby="news-heading">
+      <div class="block-head"><h2 id="news-heading">News</h2></div>
+      <ol class="news-list">
+        <li><time datetime="2026-10-09">Oct 2026</time><p>Our <a href="https://arxiv.org/abs/2610.13912">RSI-Anything</a> preprint is available on arXiv.</p></li>
+        <li><time datetime="2026-09-15">Sep 2026</time><p>Our <a href="https://arxiv.org/abs/2609.17523">ScienceBuddy</a> preprint is available on arXiv.</p></li>
+        <li><time datetime="2026-08-04">Aug 2026</time><p>Our <a href="https://arxiv.org/abs/2608.04003">PAST-Bench</a> preprint is available on arXiv.</p></li>
+      </ol>
     </section>
 
-    <section class="research" id="research" aria-labelledby="research-heading">
-      <div class="section-heading"><h2 id="research-heading">Selected research</h2><span>2026</span></div>
-      <p class="section-note">Self-improvement, from evaluation to scientific collaboration.</p>
+    <section class="block research" id="research" aria-labelledby="research-heading">
+      <div class="block-head">
+        <h2 id="research-heading">Selected research</h2>
+        <p class="block-note">Self-improvement, from evaluation to scientific collaboration.</p>
+      </div>
+      <div class="papers">
+        <article class="paper">
+          <a class="paper-figure" href="assets/rsi-anything-overview.png" aria-label="View the RSI-Anything overview figure"><img src="assets/rsi-anything-overview.webp" alt="RSI-Anything overview: predictive world models guide action selection and recursive improvement across computational and scientific domains." width="1400" height="583" loading="lazy"></a>
+          <div class="paper-body">
+            <p class="paper-meta">arXiv preprint · October 2026</p>
+            <h3><a href="https://arxiv.org/abs/2610.13912">RSI-Anything: Unlocking Recursive Self-Improvement with World Models</a></h3>
+            <p class="authors">Taoyong Cui, Pinxian Zeng, Wanghan Xu, Hao Xiao, <strong>Shuhan Xue</strong>, Qiang Gao, Wanli Ouyang, Pheng Ann Heng, Zhenfei Yin, Yingcheng Wu, Ling Yang</p>
+            <p class="paper-summary">A framework built on JEPA-Anything that uses predictive world models and interaction feedback to improve agents and workflows across code repair, GUI interaction, laboratory planning, reaction optimization, and immune science.</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2610.13912">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/Gen-Verse/RSI-Anything">Code <span aria-hidden="true">↗</span></a><a href="https://huggingface.co/datasets/Gen-Verse/RSI-Anything">Models &amp; Data <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
 
-      <article class="paper">
-        <a class="paper-image" href="assets/rsi-anything-overview.png" aria-label="View the RSI-Anything overview figure"><img src="assets/rsi-anything-overview.png" alt="RSI-Anything overview: predictive world models guide action selection and recursive improvement across computational and scientific domains." width="3884" height="1618" loading="lazy"></a>
-        <div class="paper-content">
-          <p class="paper-type">arXiv preprint · October 2026</p>
-          <h3><a href="https://arxiv.org/abs/2610.13912">RSI-Anything: Unlocking Recursive Self-Improvement with World Models</a></h3>
-          <p class="authors">Taoyong Cui, Pinxian Zeng, Wanghan Xu, Hao Xiao, <strong>Shuhan Xue</strong>, Qiang Gao, Wanli Ouyang, Pheng Ann Heng, Zhenfei Yin, Yingcheng Wu, Ling Yang</p>
-          <p class="paper-summary">A framework built on JEPA-Anything that uses predictive world models and interaction feedback to improve agents and workflows across code repair, GUI interaction, laboratory planning, reaction optimization, and immune science.</p>
-          <div class="paper-links"><a href="https://arxiv.org/abs/2610.13912">Paper ↗</a><a href="https://github.com/Gen-Verse/RSI-Anything">Code ↗</a><a href="https://huggingface.co/datasets/Gen-Verse/RSI-Anything">Models &amp; Data ↗</a></div>
-        </div>
-      </article>
+        <article class="paper">
+          <a class="paper-figure" href="assets/sciencebuddy-overview.svg" aria-label="View the ScienceBuddy overview figure"><img src="assets/sciencebuddy-overview.svg" alt="ScienceBuddy overview: scientific workspace, harness and model improvement, and researcher interaction." width="1000" height="600" loading="lazy"></a>
+          <div class="paper-body">
+            <p class="paper-meta">arXiv preprint · September 2026</p>
+            <h3><a href="https://arxiv.org/abs/2609.17523">ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents</a></h3>
+            <p class="authors"><strong>Shuhan Xue</strong>, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu, Jinchao Ding, Qiang Gao, Pengyu Zhan, Yuntong Zhang, Tian Cheng, Zhenfei Yin, Yingcheng Wu, Ling Yang</p>
+            <p class="paper-summary">An interactive scientific workspace that connects researcher collaboration with agent harness evolution and model reinforcement learning.</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2609.17523">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/Gen-Verse/ScienceBuddy">Code <span aria-hidden="true">↗</span></a><a href="http://science-buddy.io/">Website <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
 
-      <article class="paper">
-        <a class="paper-image" href="assets/sciencebuddy-overview.svg" aria-label="View the ScienceBuddy overview figure"><img src="assets/sciencebuddy-overview.svg" alt="ScienceBuddy overview: scientific workspace, harness and model improvement, and researcher interaction." width="1000" height="600"></a>
-        <div class="paper-content">
-          <p class="paper-type">arXiv preprint · September 2026</p>
-          <h3><a href="https://arxiv.org/abs/2609.17523">ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents</a></h3>
-          <p class="authors"><strong>Shuhan Xue</strong>, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu, Jinchao Ding, Qiang Gao, Pengyu Zhan, Yuntong Zhang, Tian Cheng, Zhenfei Yin, Yingcheng Wu, Ling Yang</p>
-          <p class="paper-summary">An interactive scientific workspace that connects researcher collaboration with agent harness evolution and model reinforcement learning.</p>
-          <div class="paper-links"><a href="https://arxiv.org/abs/2609.17523">Paper ↗</a><a href="https://github.com/Gen-Verse/ScienceBuddy">Code ↗</a><a href="http://science-buddy.io/">Website ↗</a></div>
-        </div>
-      </article>
-
-      <article class="paper">
-        <a class="paper-image" href="assets/past-bench-overview.png" aria-label="View the PAST-Bench overview figure"><img src="assets/past-bench-overview.png" alt="Overview of PAST-Bench and its evaluation of improvement across fresh-session tasks." width="1000" height="600" loading="lazy"></a>
-        <div class="paper-content">
-          <p class="paper-type">arXiv preprint · August 2026</p>
-          <h3><a href="https://arxiv.org/abs/2608.04003">PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents</a></h3>
-          <p class="authors"><strong>Shuhan Xue</strong>, Zixin Ding, Yichen Shen, Yinjie Wang, Zhenfei Yin, Yingcheng Wu, Yuxin Chen, Mengdi Wang, Ling Yang</p>
-          <p class="paper-summary">A benchmark for testing whether persistent agents improve from retained experience, with matched controls and evidence of how improvement happens.</p>
-          <div class="paper-links"><a href="https://arxiv.org/abs/2608.04003">Paper ↗</a><a href="https://github.com/Gen-Verse/PAST-Bench">Code ↗</a></div>
-        </div>
-      </article>
+        <article class="paper">
+          <a class="paper-figure" href="assets/past-bench-overview.png" aria-label="View the PAST-Bench overview figure"><img src="assets/past-bench-overview.webp" alt="Overview of PAST-Bench and its evaluation of improvement across fresh-session tasks." width="1200" height="675" loading="lazy"></a>
+          <div class="paper-body">
+            <p class="paper-meta">arXiv preprint · August 2026</p>
+            <h3><a href="https://arxiv.org/abs/2608.04003">PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents</a></h3>
+            <p class="authors"><strong>Shuhan Xue</strong>, Zixin Ding, Yichen Shen, Yinjie Wang, Zhenfei Yin, Yingcheng Wu, Yuxin Chen, Mengdi Wang, Ling Yang</p>
+            <p class="paper-summary">A benchmark for testing whether persistent agents improve from retained experience, with matched controls and evidence of how improvement happens.</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2608.04003">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/Gen-Verse/PAST-Bench">Code <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section class="contact" id="contact" aria-labelledby="contact-heading">
-      <div><p class="eyebrow">GET IN TOUCH</p><h2 id="contact-heading">Let’s talk research.</h2><p>For questions about my work or research collaboration:</p></div>
-      <a class="email-address" href="mailto:xueshuhanxuexi@gmail.com">xueshuhanxuexi@gmail.com <span aria-hidden="true">↗</span></a>
+    <section class="block contact" id="contact" aria-labelledby="contact-heading">
+      <div class="block-head"><h2 id="contact-heading">Get in touch</h2></div>
+      <div class="contact-body">
+        <p class="contact-lead">Let’s talk <em>research.</em></p>
+        <p class="contact-note">For questions about my work or research collaboration:</p>
+        <a class="email-address" href="mailto:xueshuhanxuexi@gmail.com">xueshuhanxuexi@gmail.com <span aria-hidden="true">↗</span></a>
+      </div>
     </section>
   </main>
-  <footer><span>© 2026 Shuhan Xue</span><a href="#about">Back to top ↑</a></footer>
+
+  <footer class="wrap site-footer"><span>© 2026 Shuhan Xue</span><a href="#about">Back to top ↑</a></footer>
 </body>
 </html>
