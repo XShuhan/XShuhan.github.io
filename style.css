@@ -39,6 +39,7 @@ h1{margin:0 0 30px;font:600 clamp(56px,7.5vw,88px)/1 var(--sans);letter-spacing:
 .pill{height:40px;padding:0 18px;font-size:14px}
 .pill span,.paper-links span{font-size:.85em;opacity:.55}
 .pill:hover,.paper-links a:hover{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.email-text{display:inline-flex;align-items:center;height:40px;padding:0 8px;font-size:14px;color:var(--ink-2);user-select:all}
 .portrait{margin:0}
 .portrait img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:42% 50%;border-radius:14px}
 
@@ -74,8 +75,7 @@ h3 a{text-decoration:none}
 .contact-lead{margin:0 0 14px;font:600 clamp(36px,4.5vw,52px)/1.1 var(--sans);letter-spacing:-.04em}
 .contact-lead em{font-style:normal;color:var(--accent)}
 .contact-note{margin:0 0 26px;font-size:15px;color:var(--muted)}
-.email-address{font-size:20px;font-weight:500;overflow-wrap:anywhere}
-.email-address span{font-size:.8em;opacity:.55}
+.email-address{margin:0;font-size:20px;font-weight:500;overflow-wrap:anywhere;user-select:all}
 
 .site-footer{display:flex;justify-content:space-between;gap:16px;padding:28px 0 44px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 .site-footer a{text-decoration:none}
@@ -118,6 +118,7 @@ h3 a{text-decoration:none}
   h1{margin-bottom:24px;font-size:52px}
   .roles{font-size:14px}
   .bio{margin-bottom:32px;font-size:17px}
+  .email-text{padding:0 2px}
   .block{gap:24px;padding:56px 0}
   h2{font-size:20px}
   .news-list li{grid-template-columns:76px minmax(0,1fr);gap:16px;padding:13px 0}
